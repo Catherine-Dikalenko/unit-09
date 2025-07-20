@@ -69,7 +69,7 @@ document.querySelector('.b-5').onclick = f5;
 let out6 = document.querySelector('.out-6');
 
 function f6() {
-    let num = document.querySelector('.p-6').length;
+    let num = document.querySelectorAll('.p-6').length;
     out6.innerHTML = num;
 }
 
